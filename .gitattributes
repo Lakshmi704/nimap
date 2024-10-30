@@ -11,5 +11,7 @@ venv/
 
 # Ignore log files
 *.log
+
+# Set Python language for linguist
 *.py linguist-language=Python
 !*.pyc linguist-detectable=false
