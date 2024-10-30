@@ -1,8 +1,13 @@
-# Set the default behavior for text files
-* text=auto
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
 
-# Specify line endings for Python files
-*.py text eol=lf
+# Ignore virtual environment
+venv/
 
-# Ignore the virtual environment folder
-venv/ export-ignore
+# Ignore Django migrations (but keep __init__.py)
+*/migrations/*
+!*/migrations/__init__.py
+
+# Ignore log files
+*.log
