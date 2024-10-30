@@ -1,0 +1,8 @@
+# Set the default behavior for text files
+* text=auto
+
+# Specify line endings for Python files
+*.py text eol=lf
+
+# Ignore the virtual environment folder
+venv/ export-ignore
